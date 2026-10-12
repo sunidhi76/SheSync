@@ -2,15 +2,6 @@
 
 > A personalised period-tracking and wellness companion that learns **your** cycle (not a fixed 28-day assumption), flags early PCOS risk signals using machine learning, and supports women at every life stage — from first period to perimenopause.
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-REST%20API-000000?logo=flask&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-Model-1f77b4)
-![Status](https://img.shields.io/badge/Status-Academic%20Prototype-purple)
-
-> ⚠️ **Disclaimer:** SheSync is an academic prototype built for awareness and education. It is **not a medical device** and does **not** diagnose PCOS or any other condition. Always consult a qualified gynaecologist for medical decisions.
-
 ---
 
 ## 📖 Table of Contents
