@@ -287,29 +287,6 @@ In the Streamlit app, the **Wearable Data** page currently shows a **simulated**
 
 ---
 
-## ⚠️ Limitations & Future Work
-
-Being upfront about the current state of the prototype:
-
-- **PCOS risk score in the app is rule-based.** The Streamlit risk check uses a weighted checklist; the Flask API combines the same rule-based score with an XGBoost prediction, but the model is fed only a subset of features (the rest default to zero). Wiring the full 41-feature trained model into the questionnaire is the top next step.
-- **Dataset size & geography:** 541 patients from Kerala — results may not generalise to other populations.
-- **Cycle prediction** uses the mean of recorded cycle lengths; more advanced time-series methods would improve accuracy for irregular cycles.
-- **Storage:** daily logs live in Streamlit session state (reset on refresh); the API's log endpoint is a demo and does not persist data.
-- **Wearable:** the live stream in the app is simulated; hardware integration is a prototype.
-- **Doctor directory:** static list for Bengaluru — verify contact details and ratings before use.
-
-**Roadmap ideas**
-
-- [ ] Persistent storage (SQLite / PostgreSQL) with user accounts
-- [ ] Use the full trained model in the PCOS questionnaire with SHAP-based explanations
-- [ ] Time-series cycle forecasting
-- [ ] Real Bluetooth / Wi-Fi wearable pipeline
-- [ ] Perimenopause-specific symptom tracking and insights
-- [ ] Multilingual support
-- [ ] `requirements.txt` and Docker setup
-
----
-
 ## 👥 Team
 
 **Department of Artificial Intelligence & Machine Learning — Global Academy of Technology, Bengaluru**
@@ -319,12 +296,6 @@ Being upfront about the current state of the prototype:
 - Sai Sirisha K S — [@saisirish891](https://github.com/saisirish891)
 
 **Guide:** Prof. Vijaya Dalawai
-
----
-
-## 📄 License
-
-No license has been specified yet. Add a `LICENSE` file (e.g., MIT) before accepting contributions or public reuse.
 
 ---
 
